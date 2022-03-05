@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1199.98px) {
+    .header {
+        left: -100%;
+        transition: all .4s ease;
+    }
+
+    .header.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    main {
+        margin-left: 0;
+    }
+
+    footer {
+        position: static;
+        width: auto;
+        padding-right: 20px 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .banner-text {
+        text-align: center;
+    }
+
+    .breadcrumbs .d-flex {
+        display: block !important;
+    }
+
+    .breadcrumbs ol {
+        display: block;
+    }
+
+    .breadcrumbs ol li {
+        display: inline-block;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    .banner-text {
+        text-align: center;
+    }
+
+    section {
+        padding: 30px 0px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text p {
+        font-size: 20px;
+    }
+
+    .c-button {
+        font-size: 16px;
+        padding: 6px 15px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .about h3 {
+        font-size: 25px;
+    }
+
+    .skBar {
+        height: 16px;
+    }
+
+    .contact form {
+        padding: 12px;
+    }
+
+    .contact-svg {
+        display: none;
+    }
+
+    .overlay-content h5 {
+        font-size: 2rem;
+    }
+
+    .more-info-btn {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner-text h1 {
+        font-size: 55px;
+    }
+
+    .contact-svg {
+        display: none;
+    }
+
+    .banner-text p {
+        font-size: 25px;
+    }
+
+    .c-button {
+        font-size: 16px;
+        padding: 6px 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1399.98px) {}
+
+/* Extra extra large devices (EXTRA large desktops, 1200px and up) */
+@media (min-width: 1400px) {}
